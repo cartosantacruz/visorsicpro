@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="420mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 42000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FEFEFE;stroke-width:1000}
+    .str0 {stroke:#373435;stroke-width:20}
+    .fil0 {fill:none}
+    .fil3 {fill:#FEFEFE}
+    .fil1 {fill:#7137AE}
+    .fil2 {fill:#7137AE;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2322278837664">
+   <g>
+    <line class="fil0 str0" x1="20935" y1="13356" x2="14418" y2= "20176" />
+   </g>
+   <rect class="fil1" x="323" y="3361" width="29401" height="28643"/>
+   <path class="fil2" d="M11513 26585l-13 5229 -3447 -8 6883 5245 6908 -5212 -3448 -9 13 -5228 -6896 -17zm-6 2615m-1731 2610m1718 2618m6896 17m1730 -2610m-1718 -2619m-3441 -2622"/>
+  </g>
+  <g id="_2322278835552">
+   <path class="fil3" d="M21011 14004c-190,-949 -797,-1329 -1708,-1708 -898,-374 -3050,-821 -4637,-834 -1588,13 -3739,460 -4637,834 -910,379 -1518,759 -1707,1708l-683 5259 0 7246 1176 0 0 1136c0,1386 2027,1386 2027,0l0 -1136 3744 0 11 0 3892 0 0 1136c0,1386 2028,1386 2028,0l0 -1136 1177 0 0 -7246 -683 -5259zm-9236 -1214l2822 0 2960 0c569,0 569,853 0,853l-2966 0 -2816 0c-569,0 -569,-853 0,-853zm-1945 11447c-537,0 -973,-435 -973,-972 0,-537 436,-973 973,-973 537,0 972,436 972,973 0,537 -435,972 -972,972zm4767 -4420l-5159 0c-505,0 -610,-363 -561,-729l532 -3814c73,-463 230,-768 831,-768l4351 0 4500 0c602,0 759,305 832,768l532 3814c50,366 -57,729 -562,729l-5296 0zm4905 4420c-537,0 -973,-435 -973,-972 0,-537 436,-973 973,-973 538,0 973,436 973,973 0,537 -435,972 -973,972z"/>
+   <polyline class="fil0 str1" points="2614,13190 15132,5785 27650,13366 "/>
+  </g>
+ </g>
+</svg>
