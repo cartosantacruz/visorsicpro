@@ -257,6 +257,10 @@
                         <th scope="row">NOTAM Vigente</th>\
                         <td>' + (feature.properties['notam_vig'] !== null ? Autolinker.link(String(feature.properties['notam_vig'])) : '') + '</td>\
                     </tr>\
+                    <tr>\
+                        <th scope="row">Web de Interés</th>\
+                        <td>' + (feature.properties['web_int'] !== null ? Autolinker.link(String(feature.properties['web_int'])) : '') + '</td>\
+                    </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -288,7 +292,6 @@
             },
         });
         bounds_group.addLayer(layer_Aerdromosyaeropuertos_2);
-        map.addLayer(layer_Aerdromosyaeropuertos_2);
         var baseMaps = {'Capa Satelital': basemap0, 'Capa Base': basemap1};
         L.control.layers(baseMaps,{'<img src="legend/Aerdromosyaeropuertos_2.png" /> Aeródromos y aeropuertos': layer_Aerdromosyaeropuertos_2,'<img src="legend/Delegaciones_1.png" /> Delegaciones': layer_Delegaciones_1,'<img src="legend/TerminalesdeOmnibus_0.png" /> Terminales de Omnibus': layer_TerminalesdeOmnibus_0,}).addTo(map);
         setBounds();
