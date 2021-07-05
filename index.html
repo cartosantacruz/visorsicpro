@@ -59,39 +59,75 @@
                 map.fitBounds(bounds_group.getBounds());
             }
         }
-        function pop_TerminalesdeOmnibus_0(feature, layer) {
+        function pop_Aerdromosyaeropuertos_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">Ciudad</th>\
+                        <th scope="row">Nombre</th>\
+                        <td>' + (feature.properties['nombre'] !== null ? Autolinker.link(String(feature.properties['nombre'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Ubicacion</th>\
                         <td>' + (feature.properties['localidad'] !== null ? Autolinker.link(String(feature.properties['localidad'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Direccion</th>\
-                        <td>' + (feature.properties['domicilio'] !== null ? Autolinker.link(String(feature.properties['domicilio'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Jefe de Terminal</th>\
-                        <td>' + (feature.properties['jef_term'] !== null ? Autolinker.link(String(feature.properties['jef_term'])) : '') + '</td>\
+                        <th scope="row">Jefe de Aeropuerto</th>\
+                        <td>' + (feature.properties['jefe_aerop'] !== null ? Autolinker.link(String(feature.properties['jefe_aerop'])) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Telefono</th>\
-                        <td>' + (feature.properties['telefono'] !== null ? Autolinker.link(String(feature.properties['telefono'])) : '') + '</td>\
+                        <td>' + (feature.properties['tel'] !== null ? Autolinker.link(String(feature.properties['tel'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Servicios</th>\
-                        <td>' + (feature.properties['serv'] !== null ? Autolinker.link(String(feature.properties['serv'])) : '') + '</td>\
+                        <th scope="row">Codigo</th>\
+                        <td>' + (feature.properties['cod'] !== null ? Autolinker.link(String(feature.properties['cod'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Darsenas</th>\
-                        <td>' + (feature.properties['dars'] !== null ? Autolinker.link(String(feature.properties['dars'])) : '') + '</td>\
+                        <th scope="row">m2 pista</th>\
+                        <td>' + (feature.properties['m_pista'] !== null ? Autolinker.link(String(feature.properties['m_pista'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Lineas Reg. Provincial</th>\
-                        <td>' + (feature.properties['lr_prov'] !== null ? Autolinker.link(String(feature.properties['lr_prov'])) : '') + '</td>\
+                        <th scope="row">Latitud</th>\
+                        <td>' + (feature.properties['latitud'] !== null ? Autolinker.link(String(feature.properties['latitud'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Lineas Reg. Nacional</th>\
-                        <td>' + (feature.properties['lr_nac'] !== null ? Autolinker.link(String(feature.properties['lr_nac'])) : '') + '</td>\
+                        <th scope="row">Longitud</th>\
+                        <td>' + (feature.properties['longitud'] !== null ? Autolinker.link(String(feature.properties['longitud'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Superficie de Pista</th>\
+                        <td>' + (feature.properties['superf_pis'] !== null ? Autolinker.link(String(feature.properties['superf_pis'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tipo de Aviones</th>\
+                        <td>' + (feature.properties['tipos_avio'] !== null ? Autolinker.link(String(feature.properties['tipos_avio'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Servicio SEI</th>\
+                        <td>' + (feature.properties['serv_sei'] !== null ? Autolinker.link(String(feature.properties['serv_sei'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Servicio Sanitario</th>\
+                        <td>' + (feature.properties['serv_sant'] !== null ? Autolinker.link(String(feature.properties['serv_sant'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">VOR</th>\
+                        <td>' + (feature.properties['vor'] !== null ? Autolinker.link(String(feature.properties['vor'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">VHF</th>\
+                        <td>' + (feature.properties['vhf'] !== null ? Autolinker.link(String(feature.properties['vhf'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Balizamiento</th>\
+                        <td>' + (feature.properties['baliza'] !== null ? Autolinker.link(String(feature.properties['baliza'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">NOTAM Vigente</th>\
+                        <td>' + (feature.properties['notam_vig'] !== null ? Autolinker.link(String(feature.properties['notam_vig'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Web de Interés</th>\
+                        <td>' + (feature.properties['web_int'] !== null ? Autolinker.link(String(feature.properties['web_int'])) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
